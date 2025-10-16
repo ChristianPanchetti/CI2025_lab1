@@ -43,16 +43,5 @@ The goal is to assign each item to **one of K knapsacks** (or leave it out) to *
 
 ---
 
-# Key Parameters
-- **`steps`** – number of SA iterations (default: **40,000**).
-- **`temp0`** – initial temperature (default: **2.0**).
-- **`cooling`** – per-step cooling factor (default: **0.9997**).
-- **`seed`** – RNG seed for reproducibility.
 
-### Hints
-- Increasing **`steps`** generally improves solution quality (with more runtime).
-- Higher **`temp0`** ⇒ more exploration early on.
-- **`cooling`** closer to 1 ⇒ slower cooling ⇒ exploration lasts longer.
-
----
 
